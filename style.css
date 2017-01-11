@@ -1,0 +1,55 @@
+body{
+	background-color: red;
+}
+
+ 
+#lingo {
+	width: 900px;
+	height: 450px;
+	
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	
+	background: blue	;
+	border-radius: 30px;
+	box-shadow: 0px 4px blue, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#lingo2 {
+	width: 500px;
+	height: 350px;
+	
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	
+	background: #4682B4;
+	border-radius: 10px;
+	position: absolute;
+	left: 500px;
+	top: 110px;
+	
+}
+
+
+
+    h1{
+    	color: white;
+    }
+
+.horizontaal{
+	position: absolute;
+	left: 600px;
+	top: 300px;
+	width: 900px;
+
+}
+
+.letter4, .letter5{
+	width: 40px;
+	height: 30px;
+}
+
+.letter3{
+	width: 40px;
+	height: 30px;
+}
