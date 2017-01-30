@@ -12,21 +12,15 @@ h1{
     }
 #all {
 	
-	background-color: pink;
+
 	position: relative;
 	margin-left: 400px;
 	margin-right: 400px;
+
 }
 
 
-.kolom1, .kolom2, .kolom3, .kolom4, .kolom5 {
-	height: 80px;
-	width: 100px;
-	background-color: black;
-	display: inline;
-	position: absolute;
-	
-}
+
 .text {
 	background-color: #A90000;
 	height: 100px;
@@ -38,145 +32,12 @@ h1{
 	
 }
 
-#child_1 {
-	margin-left: 108.5px;
-	margin-top: 0px;
-	}
-
-	#child_2 {
-	margin-left: 212px;
-	margin-top: 0px;
-	}
-	#child_3 {
-	margin-left: 315px;
-	margin-top: 0px;
-	}
-
-	#child_4 {
-	margin-left: 6px;
-	margin-top: 105px;
-	}
-
-	#child_5 {
-	margin-left: 419px;
-	margin-top: 0px;
-	}
-
-
-	#child_6 {
-	margin-left: 419px;
-	margin-top: 105px;
-	}
-
-	#child_7 {
-	margin-left: 315px;
-	margin-top: 105px;
-	}
-	#child_8 {
-	margin-left: 212px;
-	margin-top: 105px;
-
-	}
-
-	#child_9 {
-	margin-left: 109px;
-	margin-top: 105px;
-	}
-
-	#child_10{
-	margin-left: 418px;
-	margin-top: 210px;
-	}
-
-	#child_11{
-	margin-left: 315px;
-	margin-top: 210px;
-	}
-
-	#child_12{
-	margin-left: 212px;
-	margin-top: 210px;
-	}
-
-	#child_13{
-	margin-left: 109px;
-	margin-top: 210px;
-	}
-
-	#child_14{
-	margin-left: 6px;
-	margin-top: 210px;
-	}
-
-	#child_15{
-		margin-left: 6px;
-		margin-top: 0px;
-	}
-
-	#child_16{
-		margin-left: 418px;
-		margin-top: 315px;
-	}
-
-	#child_17{
-		margin-left: 315px;
-		margin-top: 315px;
-	}
-
-	#child_18{
-		margin-left: 212px;
-		margin-top: 315px;
-
-	}
-
-	#child_19{
-		margin-left: 109px;
-		margin-top: 315px;
-
-	}
-
-	#child_20{
-		margin-left: 6px;
-		margin-top: 315px;
-
-	}
-
-	#child_21{
-		margin-left: 6px;
-		margin-top: 420px;
-
-	}
-
-	#child_22{
-		margin-left: 109px;
-		margin-top: 420px;
-
-	}
-
-	#child_23{
-		margin-left: 212px;
-		margin-top: 420px;
-
-	}
-	#child_24{
-		margin-left: 315px;
-		margin-top: 420px;
-
-	}
-
-	#child_25{
-		margin-left: 418px;
-		margin-top: 420px;
-
-	}
-
-
 
 #uitleg{
 	position: absolute;
-	left: -200px;
+	left: -400px;
 	top: 550px;
- background-color: pink;
+    background-color: pink;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -190,6 +51,10 @@ h1{
     transition-duration: 0.4s;
     border-radius: 50px;
 
-
 }
 
+#check{
+	position: absolute;
+	right: 800px;
+
+}

@@ -1,9 +1,4 @@
-var lingo = {};
-
-var currentWord = '';
-var chance = 1;
-
-var words = [
+var myArray = [
 	"appel",
 	"aldus",
 	"afwas",
@@ -483,4 +478,27 @@ var words = [
 	"zeker",
 	"zever",
 	"zeeen"];
+
+var auto = myArray[Math.floor(Math.random() * myArray.length)];
+
+var word = auto ;
+word=word.split("");
+
+
+
+var position = 1;
+
+function check(pos) {
+	var inputs = document.querySelectorAll('#container_'+pos+' > input');
+
+console.log(check)
+
+	for(var i = 1; i < inputs.length; i++) {
+		var input = inputs[i];
+		if(word[i] == input.value) {
+			input.style['background-color'] = 'green';
+		
+		}
+	}
+}
 
